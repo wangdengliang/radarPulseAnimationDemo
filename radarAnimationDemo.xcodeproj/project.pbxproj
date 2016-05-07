@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		611D89BC1CDD93B600BDA4FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 611D89BB1CDD93B600BDA4FF /* main.m */; };
+		611D89BF1CDD93B600BDA4FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 611D89BE1CDD93B600BDA4FF /* AppDelegate.m */; };
+		611D89C21CDD93B600BDA4FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 611D89C11CDD93B600BDA4FF /* ViewController.m */; };
+		611D89C51CDD93B600BDA4FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 611D89C31CDD93B600BDA4FF /* Main.storyboard */; };
+		611D89C71CDD93B600BDA4FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 611D89C61CDD93B600BDA4FF /* Assets.xcassets */; };
+		611D89CA1CDD93B600BDA4FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 611D89C81CDD93B600BDA4FF /* LaunchScreen.storyboard */; };
+		611D89D51CDD93B600BDA4FF /* radarAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 611D89D41CDD93B600BDA4FF /* radarAnimationDemoTests.m */; };
+		611D89E01CDD93B700BDA4FF /* radarAnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 611D89DF1CDD93B700BDA4FF /* radarAnimationDemoUITests.m */; };
+		611D89EF1CDD93D100BDA4FF /* DLRadarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 611D89EE1CDD93D100BDA4FF /* DLRadarView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		611D89D11CDD93B600BDA4FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 611D89AF1CDD93B500BDA4FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 611D89B61CDD93B500BDA4FF;
+			remoteInfo = radarAnimationDemo;
+		};
+		611D89DC1CDD93B700BDA4FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 611D89AF1CDD93B500BDA4FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 611D89B61CDD93B500BDA4FF;
+			remoteInfo = radarAnimationDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		611D89B71CDD93B500BDA4FF /* radarAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = radarAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		611D89BB1CDD93B600BDA4FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		611D89BD1CDD93B600BDA4FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		611D89BE1CDD93B600BDA4FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		611D89C01CDD93B600BDA4FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		611D89C11CDD93B600BDA4FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		611D89C41CDD93B600BDA4FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		611D89C61CDD93B600BDA4FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		611D89C91CDD93B600BDA4FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		611D89CB1CDD93B600BDA4FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		611D89D01CDD93B600BDA4FF /* radarAnimationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = radarAnimationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		611D89D41CDD93B600BDA4FF /* radarAnimationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = radarAnimationDemoTests.m; sourceTree = "<group>"; };
+		611D89D61CDD93B700BDA4FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		611D89DB1CDD93B700BDA4FF /* radarAnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = radarAnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		611D89DF1CDD93B700BDA4FF /* radarAnimationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = radarAnimationDemoUITests.m; sourceTree = "<group>"; };
+		611D89E11CDD93B700BDA4FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		611D89ED1CDD93D100BDA4FF /* DLRadarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLRadarView.h; sourceTree = "<group>"; };
+		611D89EE1CDD93D100BDA4FF /* DLRadarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLRadarView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		611D89B41CDD93B500BDA4FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		611D89CD1CDD93B600BDA4FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		611D89D81CDD93B700BDA4FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		611D89AE1CDD93B500BDA4FF = {
+			isa = PBXGroup;
+			children = (
+				611D89B91CDD93B600BDA4FF /* radarAnimationDemo */,
+				611D89D31CDD93B600BDA4FF /* radarAnimationDemoTests */,
+				611D89DE1CDD93B700BDA4FF /* radarAnimationDemoUITests */,
+				611D89B81CDD93B500BDA4FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		611D89B81CDD93B500BDA4FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				611D89B71CDD93B500BDA4FF /* radarAnimationDemo.app */,
+				611D89D01CDD93B600BDA4FF /* radarAnimationDemoTests.xctest */,
+				611D89DB1CDD93B700BDA4FF /* radarAnimationDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		611D89B91CDD93B600BDA4FF /* radarAnimationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				611D89ED1CDD93D100BDA4FF /* DLRadarView.h */,
+				611D89EE1CDD93D100BDA4FF /* DLRadarView.m */,
+				611D89BD1CDD93B600BDA4FF /* AppDelegate.h */,
+				611D89BE1CDD93B600BDA4FF /* AppDelegate.m */,
+				611D89C01CDD93B600BDA4FF /* ViewController.h */,
+				611D89C11CDD93B600BDA4FF /* ViewController.m */,
+				611D89C31CDD93B600BDA4FF /* Main.storyboard */,
+				611D89C61CDD93B600BDA4FF /* Assets.xcassets */,
+				611D89C81CDD93B600BDA4FF /* LaunchScreen.storyboard */,
+				611D89CB1CDD93B600BDA4FF /* Info.plist */,
+				611D89BA1CDD93B600BDA4FF /* Supporting Files */,
+			);
+			path = radarAnimationDemo;
+			sourceTree = "<group>";
+		};
+		611D89BA1CDD93B600BDA4FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				611D89BB1CDD93B600BDA4FF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		611D89D31CDD93B600BDA4FF /* radarAnimationDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				611D89D41CDD93B600BDA4FF /* radarAnimationDemoTests.m */,
+				611D89D61CDD93B700BDA4FF /* Info.plist */,
+			);
+			path = radarAnimationDemoTests;
+			sourceTree = "<group>";
+		};
+		611D89DE1CDD93B700BDA4FF /* radarAnimationDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				611D89DF1CDD93B700BDA4FF /* radarAnimationDemoUITests.m */,
+				611D89E11CDD93B700BDA4FF /* Info.plist */,
+			);
+			path = radarAnimationDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		611D89B61CDD93B500BDA4FF /* radarAnimationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 611D89E41CDD93B700BDA4FF /* Build configuration list for PBXNativeTarget "radarAnimationDemo" */;
+			buildPhases = (
+				611D89B31CDD93B500BDA4FF /* Sources */,
+				611D89B41CDD93B500BDA4FF /* Frameworks */,
+				611D89B51CDD93B500BDA4FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = radarAnimationDemo;
+			productName = radarAnimationDemo;
+			productReference = 611D89B71CDD93B500BDA4FF /* radarAnimationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		611D89CF1CDD93B600BDA4FF /* radarAnimationDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 611D89E71CDD93B700BDA4FF /* Build configuration list for PBXNativeTarget "radarAnimationDemoTests" */;
+			buildPhases = (
+				611D89CC1CDD93B600BDA4FF /* Sources */,
+				611D89CD1CDD93B600BDA4FF /* Frameworks */,
+				611D89CE1CDD93B600BDA4FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				611D89D21CDD93B600BDA4FF /* PBXTargetDependency */,
+			);
+			name = radarAnimationDemoTests;
+			productName = radarAnimationDemoTests;
+			productReference = 611D89D01CDD93B600BDA4FF /* radarAnimationDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		611D89DA1CDD93B700BDA4FF /* radarAnimationDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 611D89EA1CDD93B700BDA4FF /* Build configuration list for PBXNativeTarget "radarAnimationDemoUITests" */;
+			buildPhases = (
+				611D89D71CDD93B700BDA4FF /* Sources */,
+				611D89D81CDD93B700BDA4FF /* Frameworks */,
+				611D89D91CDD93B700BDA4FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				611D89DD1CDD93B700BDA4FF /* PBXTargetDependency */,
+			);
+			name = radarAnimationDemoUITests;
+			productName = radarAnimationDemoUITests;
+			productReference = 611D89DB1CDD93B700BDA4FF /* radarAnimationDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		611D89AF1CDD93B500BDA4FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = jaway;
+				TargetAttributes = {
+					611D89B61CDD93B500BDA4FF = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					611D89CF1CDD93B600BDA4FF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 611D89B61CDD93B500BDA4FF;
+					};
+					611D89DA1CDD93B700BDA4FF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 611D89B61CDD93B500BDA4FF;
+					};
+				};
+			};
+			buildConfigurationList = 611D89B21CDD93B500BDA4FF /* Build configuration list for PBXProject "radarAnimationDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 611D89AE1CDD93B500BDA4FF;
+			productRefGroup = 611D89B81CDD93B500BDA4FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				611D89B61CDD93B500BDA4FF /* radarAnimationDemo */,
+				611D89CF1CDD93B600BDA4FF /* radarAnimationDemoTests */,
+				611D89DA1CDD93B700BDA4FF /* radarAnimationDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		611D89B51CDD93B500BDA4FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				611D89CA1CDD93B600BDA4FF /* LaunchScreen.storyboard in Resources */,
+				611D89C71CDD93B600BDA4FF /* Assets.xcassets in Resources */,
+				611D89C51CDD93B600BDA4FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		611D89CE1CDD93B600BDA4FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		611D89D91CDD93B700BDA4FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		611D89B31CDD93B500BDA4FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				611D89C21CDD93B600BDA4FF /* ViewController.m in Sources */,
+				611D89EF1CDD93D100BDA4FF /* DLRadarView.m in Sources */,
+				611D89BF1CDD93B600BDA4FF /* AppDelegate.m in Sources */,
+				611D89BC1CDD93B600BDA4FF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		611D89CC1CDD93B600BDA4FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				611D89D51CDD93B600BDA4FF /* radarAnimationDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		611D89D71CDD93B700BDA4FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				611D89E01CDD93B700BDA4FF /* radarAnimationDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		611D89D21CDD93B600BDA4FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 611D89B61CDD93B500BDA4FF /* radarAnimationDemo */;
+			targetProxy = 611D89D11CDD93B600BDA4FF /* PBXContainerItemProxy */;
+		};
+		611D89DD1CDD93B700BDA4FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 611D89B61CDD93B500BDA4FF /* radarAnimationDemo */;
+			targetProxy = 611D89DC1CDD93B700BDA4FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		611D89C31CDD93B600BDA4FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				611D89C41CDD93B600BDA4FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		611D89C81CDD93B600BDA4FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				611D89C91CDD93B600BDA4FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		611D89E21CDD93B700BDA4FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		611D89E31CDD93B700BDA4FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		611D89E51CDD93B700BDA4FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = radarAnimationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaway.radarAnimationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		611D89E61CDD93B700BDA4FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = radarAnimationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaway.radarAnimationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		611D89E81CDD93B700BDA4FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = radarAnimationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaway.radarAnimationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/radarAnimationDemo.app/radarAnimationDemo";
+			};
+			name = Debug;
+		};
+		611D89E91CDD93B700BDA4FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = radarAnimationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaway.radarAnimationDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/radarAnimationDemo.app/radarAnimationDemo";
+			};
+			name = Release;
+		};
+		611D89EB1CDD93B700BDA4FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = radarAnimationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaway.radarAnimationDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = radarAnimationDemo;
+			};
+			name = Debug;
+		};
+		611D89EC1CDD93B700BDA4FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = radarAnimationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaway.radarAnimationDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = radarAnimationDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		611D89B21CDD93B500BDA4FF /* Build configuration list for PBXProject "radarAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				611D89E21CDD93B700BDA4FF /* Debug */,
+				611D89E31CDD93B700BDA4FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		611D89E41CDD93B700BDA4FF /* Build configuration list for PBXNativeTarget "radarAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				611D89E51CDD93B700BDA4FF /* Debug */,
+				611D89E61CDD93B700BDA4FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		611D89E71CDD93B700BDA4FF /* Build configuration list for PBXNativeTarget "radarAnimationDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				611D89E81CDD93B700BDA4FF /* Debug */,
+				611D89E91CDD93B700BDA4FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		611D89EA1CDD93B700BDA4FF /* Build configuration list for PBXNativeTarget "radarAnimationDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				611D89EB1CDD93B700BDA4FF /* Debug */,
+				611D89EC1CDD93B700BDA4FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 611D89AF1CDD93B500BDA4FF /* Project object */;
+}
